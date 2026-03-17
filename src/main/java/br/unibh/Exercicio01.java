@@ -1,8 +1,8 @@
-package br.unibh;
-
 // Nome: Tom Alexander
 // RA: 1261933671
 // Versão do Java: OpenJDK 25
+
+package br.unibh;
 
 import java.util.Scanner;
 
