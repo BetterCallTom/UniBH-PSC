@@ -2,7 +2,7 @@
 // RA: 1261933671
 // Versão do Java: OpenJDK 25
 
-package br.unibh.PSC;
+package br.unibh.PSC.Atividade03;
 
 import java.util.Locale;
 import java.util.Scanner;

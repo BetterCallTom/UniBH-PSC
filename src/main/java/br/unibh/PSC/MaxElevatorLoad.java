@@ -3,7 +3,7 @@ package br.unibh.PSC;
 import java.util.Scanner;
 
 public class MaxElevatorLoad {
-  public static void main(String[] args) {
+  static void main() {
     Scanner input = new Scanner(System.in);
 
     System.out.println("Digite o valor da 1ª carga:");
@@ -16,7 +16,11 @@ public class MaxElevatorLoad {
     int totalLoad = loadA + loadB;
 
     if (totalLoad >= maxLoad) {
-      System.err.println("");
+      System.err.println("Risco de segurança ao usar o elevador!");
+      input.close();
+    } else {
+      System.out.println("Uso autorizado do elevador!");
+      input.close();
     }
   }
 }
