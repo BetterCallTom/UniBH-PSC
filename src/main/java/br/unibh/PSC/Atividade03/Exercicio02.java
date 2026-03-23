@@ -2,7 +2,7 @@
 // RA: 1261933671
 // Versão do Java: OpenJDK 25
 
-package br.unibh;
+package br.unibh.PSC;
 
 import java.util.Scanner;
 
